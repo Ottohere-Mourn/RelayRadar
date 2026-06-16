@@ -2,6 +2,10 @@
 
 > Find the best API relays. Instantly.
 
+<p align="center">
+  <img src="poster.png" alt="RelayRadar" width="480">
+</p>
+
 RelayRadar aggregates data from three Chinese LLM API relay ranking sites — [apiranking.com](https://apiranking.com), [codepk.net](https://codepk.net), and [helpaio.com/transit](https://www.helpaio.com/transit) — and gives you a unified, ranked, and testable view of 100+ relay providers.
 
 ## Features
