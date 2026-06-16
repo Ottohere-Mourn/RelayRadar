@@ -1,0 +1,7 @@
+{
+  "provider": "Custom",
+  "name": "{{RELAY_NAME}}",
+  "apiHost": "{{BASE_URL}}",
+  "apiKey": "{{API_KEY}}",
+  "models": {{MODELS}}
+}

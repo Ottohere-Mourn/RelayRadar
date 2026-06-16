@@ -1,0 +1,35 @@
+# relay-radar Skill 配置文件
+# 所有路径中的 ~ 会自动展开为用户主目录
+
+defaults:
+  # 临时数据输出目录
+  work_dir: "/tmp/relay-radar"
+
+  # 抓取超时 (ms)
+  scrape_timeout: 30000
+
+  # 默认排名权重 (总和 100)
+  weights:
+    price: 30
+    stability: 30
+    models: 20
+    rating: 20
+
+  # 连通性测试默认参数
+  test:
+    model: "gpt-4o-mini"
+    timeout_ms: 15000
+    parallel: 5
+
+# 工具配置路径 (gen-config --install 使用)
+tool_paths:
+  claude-code: "~/.claude/settings.json"
+  cursor: "~/.cursor/config.json"
+  chatbox: "~/ChatBox/config.json"
+
+# SSH 迁移默认参数 (migrate 使用)
+migration:
+  host: ""
+  port: 22
+  key: "~/.ssh/id_rsa"
+  remote_dir: "~/.config/"

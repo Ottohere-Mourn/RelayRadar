@@ -1,0 +1,9 @@
+{
+  "api": {
+    "baseUrl": "{{BASE_URL}}",
+    "apiKey": "{{API_KEY}}",
+    "models": {
+      "default": "{{DEFAULT_MODEL}}"
+    }
+  }
+}

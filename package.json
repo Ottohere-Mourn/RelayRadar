@@ -1,0 +1,35 @@
+{
+  "name": "relay-radar",
+  "version": "1.0.0",
+  "description": "Find the best API relays. Instantly. Aggregates data from apiranking.com, codepk.net, and helpaio.com for real-time LLM API relay comparison.",
+  "type": "module",
+  "bin": {
+    "relay-radar": "./relay-radar.mjs"
+  },
+  "files": [
+    "relay-radar.mjs",
+    "scripts/",
+    "templates/",
+    "config.yaml"
+  ],
+  "keywords": [
+    "llm",
+    "api",
+    "relay",
+    "中转站",
+    "claude",
+    "gpt",
+    "openai",
+    "ranking",
+    "aggregator"
+  ],
+  "author": "Ottohere-Mourn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ottohere-Mourn/RelayRadar"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
